@@ -13,5 +13,5 @@ def decrypt(s, key):
 if __name__ == '__main__':
 	print('[*] Doing the encryption...')
 	with open('out.txt', 'w') as f:
-		f.write(encrypt(argv[1], argv[2]))
+		f.write(str(encrypt(argv[1], argv[2])))
 	print('[+] Encrypted! Wrote data to out.txt')
